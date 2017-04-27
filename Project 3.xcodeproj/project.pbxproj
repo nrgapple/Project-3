@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA8EA3361EA6713B00654852 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA8EA3351EA6713B00654852 /* main.cpp */; };
-		AA8EA33E1EA672D700654852 /* virtualMemoryManager.hpp in Sources */ = {isa = PBXBuildFile; fileRef = AA8EA33D1EA672D700654852 /* virtualMemoryManager.hpp */; };
+		AA8EA33E1EA672D700654852 /* memoryManager.hpp in Sources */ = {isa = PBXBuildFile; fileRef = AA8EA33D1EA672D700654852 /* memoryManager.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 		AA8EA3321EA6713B00654852 /* Project 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8EA3351EA6713B00654852 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AA8EA33C1EA6717C00654852 /* virtualMemoryManagerInterface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = virtualMemoryManagerInterface.hpp; sourceTree = "<group>"; };
-		AA8EA33D1EA672D700654852 /* virtualMemoryManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = virtualMemoryManager.hpp; sourceTree = "<group>"; };
+		AA8EA33D1EA672D700654852 /* memoryManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = memoryManager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				AA8EA3351EA6713B00654852 /* main.cpp */,
 				AA8EA33C1EA6717C00654852 /* virtualMemoryManagerInterface.hpp */,
-				AA8EA33D1EA672D700654852 /* virtualMemoryManager.hpp */,
+				AA8EA33D1EA672D700654852 /* memoryManager.hpp */,
 			);
 			path = "Project 3";
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8EA33E1EA672D700654852 /* virtualMemoryManager.hpp in Sources */,
+				AA8EA33E1EA672D700654852 /* memoryManager.hpp in Sources */,
 				AA8EA3361EA6713B00654852 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +252,7 @@
 				AA8EA33B1EA6713B00654852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
