@@ -1,6 +1,7 @@
-# Collin DeMatt
-# CMPSC 473-002
-# Project 2
+# Group Members
+# (1) Collin DeMatt
+# (2) Adam Geiger
+# (3) Mike Rabbitz
 
 driver: main.o 
 	g++ -o main main.o -std=c++11
