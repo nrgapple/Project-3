@@ -1,3 +1,7 @@
+/* Collin DeMatt
+ * Adam Geiger
+ * Mike Rabbitz */
+
 #pragma once
 #include <iostream>
 #include <cassert>
