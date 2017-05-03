@@ -1,6 +1,6 @@
 /* Collin DeMatt
  * Adam Geiger
- * Mike Rabbitz */
+ * Mike Rabbitz **/
 
 #pragma once
 #include <iostream>
