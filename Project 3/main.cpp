@@ -1,8 +1,6 @@
-/*
- * Collin DeMatt
+/* Collin DeMatt
  * Adam Geiger
- * Mike Rabbitz
- */
+ * Mike Rabbitz */
 
 #include "virtualMemoryManagerInterface.hpp"
 #include "memoryManager.hpp"
