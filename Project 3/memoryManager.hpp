@@ -202,5 +202,5 @@ private:
         unsigned long long p_address;   // physical address
     };
 
-    list<block*> memoryTable;         // list of type 'block'
+    list<block*> memoryTable;           // list of type 'block'
 };
