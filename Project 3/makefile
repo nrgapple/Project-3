@@ -1,7 +1,6 @@
-# Group Members
-# (1) Collin DeMatt
-# (2) Adam Geiger
-# (3) Mike Rabbitz
+# Collin DeMatt
+# Adam Geiger
+# Mike Rabbitz
 
 driver: main.o 
 	g++ -o main main.o -std=c++11
