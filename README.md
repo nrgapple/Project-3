@@ -3,7 +3,8 @@ Project 3: Virtual Memory Paging
 
 #### Group Members
 - Adam Geiger
-- Collin DeMatt 
+- Collin DeMatt
+- Mike Rabbitz
 
 ## Requirements:
 

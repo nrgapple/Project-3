@@ -14,9 +14,16 @@ enum ReplacementPolicy
 class virtualMemoryManagerInterface
 {
 public:
-	virtualMemoryManagerInterface(ReplacementPolicy p, unsigned int pS, unsigned int nF, unsigned int vA) : policy(p), N(pS), numFrames(nF), virtualAddressSpaceSize(vA) {
-		assert(virtualAddressSpaceSize > N);
-		assert(pow(2, virtualAddressSpaceSize) > numFrames * pow(2,N));
+	virtualMemoryManagerInterface(
+                                ReplacementPolicy p,
+                                unsigned int pS,
+                                unsigned int nF,
+                                unsigned int vA) : policy(p),
+                                N(pS),
+                                numFrames(nF),
+                                virtualAddressSpaceSize(vA) {
+                                assert(virtualAddressSpaceSize > N);
+                                assert(pow(2, virtualAddressSpaceSize) > numFrames * pow(2,N));
 	}
 
 	/** This is the method the test bench will drive in emulating memory management.
